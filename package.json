@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "publisher": "Saffage",
   "license": "MIT",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Saffage/jet-vscode"
@@ -20,14 +21,14 @@
       {
         "id": "jet",
         "extensions": [".jet"],
-        "configuration": "./jet-cfg.json"
+        "configuration": "jet-cfg.json"
       }
     ],
     "grammars": [
       {
         "language": "jet",
         "scopeName": "source.jet",
-        "path": "./syntaxes/jet.tmLanguage.json"
+        "path": "syntaxes/jet.tmLanguage.json"
       }
     ]
   }
