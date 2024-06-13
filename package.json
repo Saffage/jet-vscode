@@ -1,35 +1,37 @@
 {
-  "name": "jet-vscode",
-  "displayName": "Jet syntax highlighting",
-  "description": "Jet syntax highlighting for VS Code",
-  "version": "0.0.1",
-  "publisher": "Saffage",
-  "license": "MIT",
-  "icon": "images/icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Saffage/jet-vscode"
-  },
-  "engines": {
-    "vscode": "^1.81.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [
-      {
-        "id": "jet",
-        "extensions": [".jet"],
-        "configuration": "jet-cfg.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "jet",
-        "scopeName": "source.jet",
-        "path": "syntaxes/jet.tmLanguage.json"
-      }
-    ]
-  }
+	"name": "jet-vscode",
+	"displayName": "Jet syntax highlighting",
+	"description": "Jet syntax highlighting for VS Code",
+	"version": "0.0.1",
+	"publisher": "Saffage",
+	"license": "MIT",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Saffage/jet-vscode"
+	},
+	"engines": {
+		"vscode": "^1.81.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "jet",
+				"extensions": [
+					".jet"
+				],
+				"configuration": "jet-cfg.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "jet",
+				"scopeName": "source.jet",
+				"path": "syntaxes/jet.tmLanguage.json"
+			}
+		]
+	}
 }
