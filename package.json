@@ -1,8 +1,14 @@
 {
   "name": "jet-vscode",
-  "displayName": "Jet",
+  "displayName": "Jet syntax highlighting",
   "description": "Jet syntax highlighting for VS Code",
   "version": "0.0.1",
+  "publisher": "Saffage",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saffage/jet-vscode"
+  },
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -13,7 +19,6 @@
     "languages": [
       {
         "id": "jet",
-        "aliases": ["Jet", "jet"],
         "extensions": [".jet"],
         "configuration": "./jet-cfg.json"
       }
