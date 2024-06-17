@@ -237,7 +237,7 @@
 				},
 				{
 					"name": "keyword.control.jet",
-					"match": "\\b(if|else|while|for|continue|break|return|assert)\\b"
+					"match": "\\b(if|else|while|for|continue|break|return|assert|defer)\\b"
 				},
 				{
 					"name": "keyword.operator.word.jet",
@@ -257,7 +257,7 @@
 				},
 				{
 					"name": "invalid.reserved.jet",
-					"match": "\\b(undefined|defer|when|with|union|module|package|global|static|trait|concept|typeid)\\b"
+					"match": "\\b(undefined|when|with|union|module|package|global|static|trait|concept|typeid)\\b"
 				}
 			]
 		},
